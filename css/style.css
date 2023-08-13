@@ -1,0 +1,252 @@
+
+/* Font Sizes */
+
+:root {
+    --font-xl: 42px;
+    --font-lg: 24px;
+    --font-md: 20px;
+    --font-sm: 18px;
+    --font-xs: 16px;
+    --font-xxs: 14px; 
+  }
+  
+  @media (max-width: 768px) {
+  
+    :root {
+      --font-xl: 18px;
+      --font-lg: 16px;
+      --font-md: 14px;
+      --font-sm: 12px;
+      --font-xs: 12px;
+      --font-xxs: 12px;
+    }
+  
+  }
+  
+  /* General Styles */
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--font-md);
+    background-color: #000;
+    background-size: cover;
+    background-position: 20vw -10vh; 
+    background-repeat: no-repeat;
+    line-height: 1.4;
+    min-height: 100vh;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;  
+  }
+  
+  a:hover {
+    filter: brightness(70%);
+  }
+  
+  button:hover {
+    filter: brightness(70%);
+  }
+  
+  /* Layout */
+  
+  main {
+    flex: 1;
+    width: 100%; 
+  }
+  
+  /* Typography */
+  
+  h1,
+  h2 {
+    font-family: "SF Pro Display", sans-serif;  
+  }
+  
+  h1 {
+    font-size: var(--font-xl);
+    margin: 0;
+  }
+  
+  h2 {
+    font-size: var(--font-lg);
+  }
+  
+  h3 {
+    font-size: var(--font-md);
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  /* Links */
+  
+  .blue-link {
+    color: #7fabff;
+  }
+  
+  /* Header */ 
+  
+  .app__name {
+    font-size: var(--font-xl);
+    margin: 0;
+  }
+  
+  .app__description {
+    font-size: var(--font-lg);
+    color: #868686;
+    margin-top: 0;
+  }
+  
+  @media (max-width: 768px) {
+  
+    .app__description {
+      margin-top: 8px;
+      margin-bottom: 0;
+    }
+  
+  }
+  
+  /* Buttons */
+  
+  .app__button-web img {
+    width: 300px;
+    margin: 40px;
+  }
+  
+  .app__button-web img:hover {
+    filter: brightness(70%);
+  }
+  
+  @media (max-width: 768px) {
+  
+    .app__button-web {
+      margin-left: 10px; 
+    }
+  
+    .app__button-web img {
+      width: 116px;
+    }
+  
+  }
+  
+  /* Footer */
+  
+  /* Main Content */
+  
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%; 
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+  }
+  
+  /* Main Content Sections */
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Images */
+  
+  .balackburn__icon {
+    margin: 50px;
+    border-radius: 20px;
+    border: 1px solid #858585;
+    display: inline-block;
+    background-size: contain;
+    max-width: 180px;
+    max-height: 180px;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;  
+  }
+  
+  .icon {
+    border-radius: 20px;
+    border: 1px solid #858585;
+    display: inline-block;
+    background-size: contain;
+    width: 50%;
+    background-repeat: no-repeat;
+  }
+  
+  /* Featured Projects */
+  
+  .projects {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+  }
+  
+  .project {
+    margin-bottom: 100px;
+  }
+  
+  .more-details-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border: 1px solid #7f7f7f;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 280px;
+    font-family: 'SF Pro Display', sans-serif;
+    padding: 10px 20px;
+    margin-inline: auto; 
+  }
+  
+  .button-text {
+    font-size: 20px;
+    font-weight: bold;   
+  }
+  
+  .button-subtext {
+    color: #7f7f7f;
+    font-size: 18px;
+  }
+  
+  /* Project List */
+  
+  .project-list {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+  }
+  
+  
+  .project-list > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    width: 100%;
+    max-width: 280px;  
+  }
+  
+  .project-list > div p {
+    margin: 0;  
+  }
+  
+  /* Flex Utilities */
+  
+  .flex {
+    justify-content: left;
+  }
