@@ -23,8 +23,14 @@
                 <h2 class="app__name">balackburn.github.io</h2>
 
                 <p class="app__description">Welcome to Balackburn Github projects pages!</p>
-                <a class="app__button-web" href="https://github.com/Balackburn/" target="_blank" title="See on Github">
-                    <img alt="See on Github" src="./images/github_button.png">
+                <a href="https://github.com/Balackburn/" class="github-btn"> <img src="images/github-logo.png"
+                        alt="GitHub logo">
+                    <div class="text">
+
+                        <span class="button-text">See me on GitHub</span>
+
+                        <span class="button-subtext">Balackburn</span>
+                    </div>
                 </a>
                 <div class="projects">
 
@@ -32,7 +38,7 @@
           padding-bottom: 55px;
           ">Featured</h1>
 
-                    <div class="project-list">
+                    <div class="project-list" style="margin-bottom: 50px;">
                         <div class="project">
                             <img src="./images/youtube_icon.png" alt="youtube icon" class="icon">
                             <h3>YTLitePlus</h3>
@@ -56,13 +62,13 @@
                             </div>
                         </div>
                         <div class="project">
-                            <img src="./images/apollo_icon.png" alt="youtube icon" class="icon">
+                            <img class="app__logo icon" alt="App logo">
                             <h3>Apollo</h3>
                             <div class="flex">
 
                                 <p>
-                                    An Altstore source and website for ApolloPatcher (by <strong><a href="https://github.com/ichitaso"
-                                        class="blue-link">@ichitaso</a></strong>)
+                                    An Altstore source and website for ApolloPatcher (by <strong><a
+                                            href="https://github.com/ichitaso" class="blue-link">@ichitaso</a></strong>)
                                 </p>
                                 <a href="./Apollo/" target="_blank">
 
@@ -124,5 +130,31 @@
 
     </div>
 </body>
+<script>
+    const TOTAL_ICONS = 156;
+    let randomIndex;
+
+    function getRandomIcon() {
+        randomIndex = Math.floor(Math.random() * TOTAL_ICONS);
+        return `./images/apollo_icons/icon_${randomIndex}.webp`;
+    }
+
+    function updateIcon() {
+        const logoElements = document.getElementsByClassName('app__logo');
+
+        for (let i = 0; i < logoElements.length; i++) {
+            logoElements[i].src = getRandomIcon();
+        }
+    }
+
+    function startAnimation() {
+        setInterval(updateIcon, 400); // Change the icon every 400 milliseconds
+    }
+
+    window.addEventListener('load', () => {
+        updateIcon();
+        startAnimation();
+    });
+</script>
 
 </html>
