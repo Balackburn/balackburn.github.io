@@ -1,28 +1,7 @@
-/* Font Sizes */
-
-:root {
-  --font-xl: 42px;
-  --font-lg: 24px;
-  --font-md: 20px;
-  --font-sm: 18px;
-  --font-xs: 16px;
-  --font-xxs: 14px;
-}
-
-@media (max-width: 768px) {
-
-  :root {
-    --font-xl: 18px;
-    --font-lg: 16px; 
-    --font-md: 14px;
-    --font-sm: 12px;
-    --font-xs: 12px;
-    --font-xxs: 12px;
-  }
-
-}
-
 /* General Styles */
+p {
+  font-size: 18px;
+}
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
@@ -40,7 +19,7 @@ body {
 
 a {
   color: #fff;
-  text-decoration: none;  
+  text-decoration: none;
 }
 
 a:hover {
@@ -59,14 +38,17 @@ main {
 }
 
 /* Typography */
+html {
+  font-size: 16px;
+}
 
 h1,
 h2 {
-  font-family: "SF Pro Display", sans-serif;  
+  font-family: "SF Pro Display", sans-serif;
 }
 
 h1 {
-  font-size: 42px;
+  font-size: 2.625rem;
   margin: 0;
 }
 
@@ -75,7 +57,7 @@ h2 {
 }
 
 h3 {
-  font-size: 27px;
+  font-size: 1.6875rem;
 }
 
 p {
@@ -84,7 +66,8 @@ p {
 
 /* Links */
 
-.blue-link {align-self: start;
+.blue-link {
+  align-self: start;
   color: #7fabff;
 }
 
@@ -95,13 +78,19 @@ p {
 }
 
 .app__description {
-  font-size: var(--font-lg);
   color: #868686;
   margin-top: 0;
 }
 
 @media (max-width: 768px) {
-  
+  .content {
+    width: 90%;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
   .app__description {
     margin-top: 8px;
     margin-bottom: 0;
@@ -109,28 +98,6 @@ p {
 
 }
 
-/* Buttons */
-
-.app__button-web img {
-  width: 300px;
-  margin: 40px;
-}
-
-.app__button-web img:hover {
-  filter: brightness(70%); 
-}
-
-@media (max-width: 768px) {
-
-  .app__button-web {
-    margin-left: 10px;
-  }
-
-  .app__button-web img {
-    width: 116px;
-  }
-
-}
 
 /* Main Content */
 
@@ -144,7 +111,7 @@ p {
   margin: 0 auto;
   text-align: center;
   position: relative;
-  padding: 16px; 
+  padding: 16px;
 }
 
 /* Images */
@@ -179,7 +146,7 @@ p {
   background-repeat: no-repeat;
 }
 
-/* Featured Projects */  
+/* Featured Projects */
 
 .projects {
   text-align: left;
@@ -187,18 +154,22 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: auto;
 }
 
 @media (max-width: 768px) {
 
   .projects {
+    text-align: center;
+    max-width: 50%;
     padding-bottom: 16px;
+
   }
 
 }
 
 .project {
-  margin-bottom: 100px; 
+  margin-bottom: 100px;
 }
 
 @media (max-width: 768px) {
@@ -216,16 +187,27 @@ p {
   justify-content: center;
   gap: 150px;
 }
+#project2 {
+  margin-bottom: 50px;
+}
+
 
 @media (max-width: 768px) {
+  #project2 {
+    margin-bottom: 150px;
+  }
+
 
   .project-list {
     flex-direction: column;
+    gap: 100px;
+
   }
 
 }
 
-.project-list > div {
+
+.project-list>div {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -236,13 +218,13 @@ p {
 
 @media (max-width: 768px) {
 
-  .project-list > div {
+  .project-list>div {
     max-width: 100%;
   }
 
 }
 
-.project-list > div p {
+.project-list>div p {
   margin: 0;
 }
 
@@ -258,7 +240,7 @@ p {
   border: 2px solid #7f7f7f;
   border-radius: 10px;
   margin-top: 20px;
-  width: 280px;
+  width: 280px !important;
   font-family: 'SF Pro Display', sans-serif;
   padding: 10px 20px;
   margin-inline: auto;
@@ -267,14 +249,14 @@ p {
 @media (max-width: 768px) {
 
   .more-details-button {
-    width: 100%; 
+    width: 100%;
   }
 
 }
 
 .button-text {
   font-size: 20px;
-  font-weight: bold;   
+  font-weight: bold;
 }
 
 .button-subtext {
@@ -285,43 +267,43 @@ p {
 /* Flex Utilities */
 
 .flex {
-  justify-content: left; 
+  justify-content: left;
 }
 
 /* Github button */
 
 .github-btn {
-	background-color: #000;
-	color: #fff;
-	border-radius: 15px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 15px;
   padding: 10px;
   display: flex;
-	align-items: center;
+  align-items: center;
   width: 275px;
   text-align: left;
   border: 2px solid #7f7f7f;
   margin: auto;
   margin-top: 40px;
-  margin-bottom: 100px;  }
-  
-  .github-btn img {
-	width: 50px;
-  margin-right: 10px;  
+  margin-bottom: 100px;
+}
+
+.github-btn img {
+  width: 50px;
+  margin-right: 10px;
   border: 1px solid #7f7f7f;
-  border-radius: 10px;}
-  
-  .github-btn .text {
-	display: flex;
-	flex-direction: column;
-  }
-  
-  .github-btn span:first-child {
-	font-size: 24px;
+  border-radius: 10px;
+}
+
+.github-btn .text {
+  display: flex;
+  flex-direction: column;
+}
+
+.github-btn span:first-child {
+  font-size: 24px;
   line-height: 1;
-  }
-  
-  .github-btn span:last-child {
-font-weight: bold;
-    }
-    
-  
+}
+
+.github-btn span:last-child {
+  font-weight: bold;
+}
