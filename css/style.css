@@ -284,7 +284,7 @@ p {
   border: 2px solid #7f7f7f;
   margin: auto;
   margin-top: 40px;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 .github-btn img {
@@ -305,5 +305,42 @@ p {
 }
 
 .github-btn span:last-child {
+  font-weight: bold;
+}
+
+/* Altstore button */
+
+.altstore-btn {
+  background-color: #000;
+  color: #fff;
+  border-radius: 15px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  width: 275px;
+  text-align: left;
+  border: 2px solid #7f7f7f;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.altstore-btn img {
+  width: 50px;
+  margin-right: 10px;
+  border: 1px solid #7f7f7f;
+  border-radius: 10px;
+}
+
+.altstore-btn .text {
+  display: flex;
+  flex-direction: column;
+}
+
+.altstore-btn span:first-child {
+  font-size: 24px;
+  line-height: 1;
+}
+
+.altstore-btn span:last-child {
   font-weight: bold;
 }
