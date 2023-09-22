@@ -1,0 +1,345 @@
+{
+    "name": "Balackburn Github Projects",
+    "identifier": "com.balackburb.source",
+    "apps": [
+        {
+            "beta": false,
+            "name": "Youtube (YTLitePlus)",
+            "bundleIdentifier": "com.google.ios.youtube",
+            "developerName": "Dayanch96 & Balackburn",
+            "subtitle": "YTLite with more features!",
+            "version": "18.35.4",
+            "versionDate": "2023-09-08T13:04:14Z",
+            "versionDescription": "Current YouTube IPA: \"18.35.4\"  \r\nCurrent YTLitePlus Version: \"2.3.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.35.4\u20222.3.1: (2023\u202209\u202208)\r\n\r\n\u2022 Updated Youtube from \"18.34.5\" to \"18.35.4\"\r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work (Compatible only with YouTube v16.05.7\u2022v17.38.10)\r\n\u2022 Shorts are not hidden everywhere (problem with YTLite tweak)\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite (as the version is already spoofed by YTLite to fix YTClassicVideoQuality)\r\n\u2022 Age\u2022restricted videos don't load correctly 29 (enable \"Skip content warning\" in YTlite settings to resolve this issue)\r\n\u2022 VP9 (YTHUD) is currently broken, so resolutions higher than 1080p like 1440p or 4k won't work.",
+            "downloadURL": "https://github.com/Balackburn/YTLitePlus/releases/download/v18.35.4-2.3.1/YTLitePlus_18.35.4_2.3.1.ipa",
+            "localizedDescription": "YTLite with more features! \n\nSupercharge your YouTube experience with +15 tweaks: \n\n\u2022 YTLite: Ad-blocking & background playback, +50 options\n\u2022 iSponsorBlock: Skip sponsor ads\n\u2022 YouPiP: Native PiP mode\n\u2022 YTUHD: 2K & 4K video quality\n\u2022 YouTube Dislike Return: Reinstate dislike counts\n\u2022 YTClassicVideoQuality: Old video quality selector\n\u2022 YTNoHoverCards: Disable suggested videos\n\u2022 YTABGoodies: Disable A/B testing features\n\u2022 NOYTPremium: Remove Premium upsell alerts\n\u2022 YTSpeed: Add 2.25x to 4x playback speeds\n\u2022 YTMiniplayerEnabler: Enable Miniplayer\n\u2022 DontEatMyContent: Prevent notch issues\n\u2022 YTShortsProgress: Enable Shorts progress bar\n\u2022 YTABConfig: Control A/B testing flags\n\u2022 YouMute: Mute/unmute videos\n\u2022 LowContrastMode: Reduce interface contrast\n\u2022 And many more...",
+            "iconURL": "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main//Youtube_logo-512.png",
+            "tintColor": "e22a41",
+            "size": 104407606,
+            "screenshotURLs": [
+                "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main/screenshots/1.png",
+                "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main//screenshots/2.png",
+                "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main//screenshots/3.png",
+                "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main//screenshots/4.png",
+                "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main//screenshots/5.png",
+                "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main//screenshots/6.png",
+                "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main//screenshots/7.png",
+                "https://raw.githubusercontent.com/Balackburn/YTLitePlusAltstore/main//screenshots/8.png"
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    {
+                        "name": "com.apple.security.application-groups"
+                    },
+                    {
+                        "name": "com.apple.developer.associated-domains"
+                    },
+                    {
+                        "name": "com.apple.developer.coremedia.allow-alternate-video-decoder-selection"
+                    },
+                    {
+                        "name": "com.apple.developer.usernotifications.time-sensitive"
+                    },
+                    {
+                        "name": "com.apple.developer.coremedia.allow-alternate-video-decoder-selection"
+                    },
+                    {
+                        "name": "com.apple.developer.usernotifications.time-sensitive"
+                    },
+                    {
+                        "name": "get-task-allow"
+                    },
+                    {
+                        "name": "com.apple.developer.device-information.user-assigned-device-name"
+                    },
+                    {
+                        "name": "com.apple.developer.group-session"
+                    },
+                    {
+                        "name": "keychain-access-groups"
+                    },
+                    {
+                        "name": "com.apple.developer.networking.multicast"
+                    },
+                    {
+                        "name": "aps-environment"
+                    },
+                    {
+                        "name": "com.apple.developer.networking.wifi-info"
+                    }
+                ],
+                "privacy": [
+                    {
+                        "name": "AppleMusic",
+                        "usageDescription": "YTLitePlus requires access to your Apple Music library."
+                    },
+                    {
+                        "name": "BluetoothPeripheral",
+                        "usageDescription": "YTLitePlus requires Bluetooth access to connect with nearby peripherals."
+                    },
+                    {
+                        "name": "Camera",
+                        "usageDescription": "YTLitePlus requires access to the camera to capture photos and videos."
+                    },
+                    {
+                        "name": "Contacts",
+                        "usageDescription": "YTLitePlus requires access to your contacts to help you share content with your friends."
+                    },
+                    {
+                        "name": "LocalNetwork",
+                        "usageDescription": "YTLitePlus requires local network access to connect and communicate with nearby devices."
+                    },
+                    {
+                        "name": "LocationWhenInUse",
+                        "usageDescription": "YTLitePlus requires access to your location while using the app to provide personalized recommendations."
+                    },
+                    {
+                        "name": "Microphone",
+                        "usageDescription": "YTLitePlus requires access to your microphone to record audio."
+                    },
+                    {
+                        "name": "PhotoLibrary",
+                        "usageDescription": "YTLitePlus requires access to your Photo Library to save photos and videos."
+                    }
+                ]
+            },
+            "versions": [
+                {
+                    "version": "18.35.4",
+                    "date": "2023-09-08",
+                    "localizedDescription": "Current YouTube IPA: \"18.35.4\"  \r\nCurrent YTLitePlus Version: \"2.3.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.35.4\u20222.3.1: (2023\u202209\u202208)\r\n\r\n\u2022 Updated Youtube from \"18.34.5\" to \"18.35.4\"\r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work (Compatible only with YouTube v16.05.7\u2022v17.38.10)\r\n\u2022 Shorts are not hidden everywhere (problem with YTLite tweak)\r\n\u2022 VersionSpoofer (Lite) doesn't work with YTLite (as the version is already spoofed by YTLite to fix YTClassicVideoQuality)\r\n\u2022 Age\u2022restricted videos don't load correctly 29 (enable \"Skip content warning\" in YTlite settings to resolve this issue)\r\n\u2022 VP9 (YTHUD) is currently broken, so resolutions higher than 1080p like 1440p or 4k won't work.",
+                    "downloadURL": "https://github.com/Balackburn/YTLitePlus/releases/download/v18.35.4-2.3.1/YTLitePlus_18.35.4_2.3.1.ipa",
+                    "size": 104407606
+                },
+                {
+                    "version": "18.34.5",
+                    "date": "2023-09-06",
+                    "localizedDescription": "Current YouTube IPA: \"18.34.5\"  \r\nCurrent YTLitePlus Version: \"2.3.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.34.5\u20222.3.1: (2023\u202209\u202206)\r\n\r\n\u2022 Updated Youtube from \"18.33.3\" to \"18.34.5\"\r\n\u2022 Updated LowContrastMode from \"1.4.0\" to \"1.4.2\" from @arichorn \r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode does not work (Compatible only with YouTube v16.05.7\u2022v17.38.10)\r\n\u2022 Shorts are not hidden everywhere (problem with YTLite tweak)\r\n\u2022 VersionSpoofer (Lite) doesn't work (the version is already spoofed by YTLite)\r\n\u2022 If age\u2022restricted videos do not load correctly 29 enable \"Skip content warning\" in YTLite settings to fix the issue",
+                    "downloadURL": "https://github.com/Balackburn/YTLitePlus/releases/download/v18.34.5-2.3.1/YTLitePlus_18.34.5_2.3.1.ipa",
+                    "size": 104247443
+                },
+                {
+                    "version": "18.33.3",
+                    "date": "2023-08-30",
+                    "localizedDescription": "Current YouTube IPA: \"18.33.3\"  \r\nCurrent YTLitePlus Version: \"2.3.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.33.3\u20222.3.1: (2023\u202208\u202230)\r\n\r\n\u2022 Updated Youtube from \"18.33.2\" to \"18.33.3\"\r\n\u2022 Updated YTLite to the latest commit\r\n\t\u2022 Updated French localization\r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode doesn't work (it work with older YT version)\r\n\u2022 Shorts are not hidden everywhere (problem with YTLite tweak)\r\n\u2022 VersionSpoofer (Lite) doesn't work (the version is already spoofed by YTLite)\r\n\u2022 Age\u2022restricted videos do not load correctly 29",
+                    "downloadURL": "https://github.com/Balackburn/YTLitePlus/releases/download/v18.33.3-2.3.1/YTLitePlus_18.33.3_2.3.1.ipa",
+                    "size": 104165997
+                },
+                {
+                    "version": "18.33.2",
+                    "date": "2023-08-27",
+                    "localizedDescription": "Current YouTube IPA: \"18.33.2\"  \r\nCurrent YTLitePlus Version: \"2.3.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.33.2\u20222.3.1: (2023\u202208\u202227)\r\n\r\n\u2022 Updated Youtube from \"18.32.2\" to \"18.33.2\"\r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode doesn't work (it work with older YT version)\r\n\u2022 Shorts are not hidden everywhere (problem with YTLite tweak)\r\n\u2022 VersionSpoofer (Lite) doesn't work (the version is already spoofed by YTLite)",
+                    "downloadURL": "https://github.com/Balackburn/YTLitePlus/releases/download/v18.33.2-2.3.1/YTLitePlus_18.33.2_2.3.1.ipa",
+                    "size": 104165527
+                },
+                {
+                    "version": "18.32.2",
+                    "date": "2023-08-26",
+                    "localizedDescription": "Current YouTube IPA: \"18.32.2\"  \r\nCurrent YTLitePlus Version: \"2.3.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.32.2\u20222.3.1: (2023\u202208\u202226)\r\n\r\n\u2022 Updated Youtube from \"18.31.3\" to \"18.32.2\"\r\n\u2022 Updated  iOS SDK from \"iOS\u202215.5\u2022SDK\" to \"iOS\u202216.2\u2022SDK\"\r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode doesn't work (it work with older YT version)\r\n\u2022 Shorts are not hidden everywhere (problem with YTLite tweak)\r\n\u2022 VersionSpoofer (Lite) doesn't work (the version is already spoofed by YTLite)",
+                    "downloadURL": "https://github.com/Balackburn/YTLitePlus/releases/download/v18.32.2-2.3.1/YTLitePlus_18.32.2_2.3.1.ipa",
+                    "size": 103997814
+                },
+                {
+                    "version": "18.31.3",
+                    "date": "2023-08-10",
+                    "localizedDescription": "Current YouTube IPA: \"18.31.3\"  \r\nCurrent YTLitePlus Version: \"2.3.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.31.3\u20222.3.1: (2023\u202208\u202210)\r\n\r\n\u2022 Updated Youtube from \"18.30.6\" to \"18.31.3\"\r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode doesn't work (it work with older YT version)\r\n\u2022 Version Spoofer (lite) doesn't work",
+                    "downloadURL": "https://github.com/Balackburn/YTLitePlus/releases/download/v18.31.3-2.3.1/YTLitePlus_18.31.3_2.3.1.ipa",
+                    "size": 103817100
+                },
+                {
+                    "version": "18.30.6",
+                    "date": "2023-07-31",
+                    "localizedDescription": "Current YouTube IPA: \"18.30.6\"  \r\nCurrent YTLitePlus Version: \"2.3.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.30.6\u20222.3.1: (2023\u202207\u202231)\r\n\r\n\u2022 Updated Youtube  from \"18.29.1\" to \"18.30.6\"  \r\n\u2022 Improved Old Darkmode & OLED darkmode @arichorn \r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode doesn't work (it work with older YT version)",
+                    "downloadURL": "https://github.com/Balackburn/YTLitePlus/releases/download/v18.30.6-2.3.1/YTLitePlus_18.30.6_2.3.1.ipa",
+                    "size": 103404409
+                },
+                {
+                    "version": "18.29.1",
+                    "date": "2023-07-29",
+                    "localizedDescription": "Current YouTube IPA: \"18.29.1\"  \r\nCurrent YTLitePlus Version: \"2.3.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.29.1\u20222.3.1: (2023\u202207\u202229)\r\n\r\n\u2022 Updated YTLite from \"2.3\" to \"2.3.1\" \r\n  \u2022 Japanese localization support (Thank you to @SKEIDs)\r\n  \u2022 Fix for \"Remove dark background\" option (Thank you to @arichorn)\r\n  \u2022 Small improvements\r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode doesn't work (it work with older YT version)",
+                    "downloadURL": "https://github.com/Balackburn/YTLitePlus/releases/download/v18.29.1-2.3.1/YTLitePlus_18.29.1_2.3.1.ipa",
+                    "size": 103152898
+                },
+                {
+                    "version": "18.28.3",
+                    "date": "2023-07-17",
+                    "localizedDescription": "Current YouTube IPA: \"18.28.3\"  \r\nCurrent YTLitePlus Version: \"2.3\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.28.3\u20222.3: (2023\u202207\u202217)\r\n\r\n\u2022 Updated Youtube from \"18.27.3\" to \"18.28.3\"\r\n\u2022 Fix and Improvements (@arichorn)\r\n\t\u2022 Removed duplicates options with YTLite\r\n\t\u2022 Updated VersionSpoofer\r\n\t\u2022 Updated LowContrastMode\r\n\t\u2022 Fixed broken options\r\n\r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode doesn't work (it work with older YT version)\r\n\u2022 YTSpeed not working (both broken in v18.19.1+)",
+                    "downloadURL": "https://github.com/Balackburn/YTLitePlus/releases/download/v18.28.3-2.3/YTLitePlus_18.28.3_2.3.ipa",
+                    "size": 103030256
+                },
+                {
+                    "version": "18.27.3",
+                    "date": "2023-07-15",
+                    "localizedDescription": "Current YouTube IPA: \"18.27.3\"  \r\nCurrent YTLitePlus Version: \"2.3\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.27.3\u20222.3: (2023\u202207\u202215)\r\n\u2022 Updated YTLite from \"2.2.1\" to \"2.3\" @dayanch96\r\n\t\u2022 Added option to hide search history\r\n\t\u2022 Added option to remove videos section under the video player\r\n\t\u2022 Added option to stick sort buttons panel in comments section\r\n\t\u2022 Added option to hide sort buttons panel in comments section\r\n\t\u2022 Added option to replace floating playlist minibar with classic one\r\n\t\u2022 Added option to disable right\u2022to\u2022left formatting\r\n\t\r\n\u2022 Updated submodules\r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode doesn't work (it work with older YT version)\r\n\u2022 YTSpeed not working (both broken in v18.19.1+)",
+                    "downloadURL": "https://github.com/Balackburn/YTLitePlus/releases/download/v18.27.3-2.3/YTLitePlus_18.27.3_2.3.ipa",
+                    "size": 102990123
+                },
+                {
+                    "version": "18.25.1",
+                    "date": "2023-07-07",
+                    "localizedDescription": "Current YouTube IPA: \"18.25.1\"  \r\nCurrent YTLitePlus Version: \"2.2\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.25.1\u20222.2: (2023\u202207\u202207)\r\n\r\n\u2022 Updated YTLite from \"2.1\" to \"2.2\" (@dayanch96) \r\n  \u2022 Added:\r\n    \u2022 Extra speed options\r\n    \u2022 Auto fullscreen\r\n    \u2022 Remove 'Play next in queue' from the menu\r\n    \u2022 Remove 'Continue watching' block\r\n  \u2022 Fixed:\r\n    \u2022 'Classic Video Quality' option for newer YT versions (See line 278)\r\n    \u2022 'Disable Double Tap To Seek' option for newer YT versions\r\n    \u2022 Some Shorts was appearing in Search results\r\n    \u2022 Enabled ads was displaying blank blocks instead of ads in home feed\r\n\r\n\u2022 Added \"YTNoCommunityPosts\" (@arichorn)\r\n    \u2022 Tweak to add a setting to disable all Community Posts on the YouTube app\r\n  \r\n\u2022 Added \"AppVersionSpoofer\" (@arichorn)\r\n    \u2022 Mimic YouTube versions to access specific features, layouts, and resolve issues.\r\n\r\n\u2022 Fixed issue 3 \r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode doesn't work (it work with older YT version)\r\n\u2022 YTSpeed not working (both broken in v18.19.1+)",
+                    "downloadURL": "https://github.com/Balackburn/YTLitePlus/releases/download/v18.25.1-2.2/YTLitePlus_18.25.1_2.2.ipa",
+                    "size": 102680656
+                },
+                {
+                    "version": "18.23.3",
+                    "date": "2023-06-27",
+                    "localizedDescription": "Current YouTube IPA: \"v18.23.3\"  \r\nCurrent YTLite Version: \"v2.1\"  \r\nCurrent App Compatibility: \"iOS/iPadOS 14.0\" or later\r\n\r\nRELEASE 18.23.3\u20222.1: (June 27th 2023)\r\n\r\n\u2022 Updated YTLite from \"2.0\" to \"2.1\"\r\n  \u2022 Added option to Hide \"Continue watching\" carousel in Home Tab (Other tab)\r\n  \u2022 Added option to remove \"Play next in queue\" in video menu (Other tab)\r\n  \u2022 Improved No ads option\r\n  \u2022 Improved No Shorts option\r\n  \u2022 Fixed Related videos not working\r\n  \u2022 Updated Simplified Chinese (Thanks to @xiangfeidexiaohuo)\r\n\r\nIssues in this Release:\r\n\u2022 LowContrastMode doesn't work (it work with older YT version)\r\n\u2022 The old Darkmode doesn't work quite right",
+                    "downloadURL": "https://github.com/Balackburn/YTLitePlus/releases/download/v18.23.3-2.1/YTLitePlus_18.23.3.ipa",
+                    "size": 93660760
+                }
+            ]
+        },
+        {
+            "beta": false,
+            "name": "Apollo for Reddit",
+            "bundleIdentifier": "com.ichitaso.Apollo",
+            "developerName": "Christian Selig (& ichitaso)",
+            "subtitle": " The award-winning Reddit app",
+            "version": "1.15.11",
+            "versionDate": "2023-07-14T04:04:14Z",
+            "versionDescription": "\u2022 Re Fix Imgur loading issue  \r\n\r\nThe Imgur client ID is tentatively created by me, but may stop if there are too many requests.\r\n\r\nHow to create\r\n\r\nIf you do not have an Imgur account, please create one:\r\nhttps://imgur.com/\r\n\r\nAfter creating an account, create an app from the following page\r\nhttps://api.imgur.com/oauth2/addclient\r\nAuthorization type: is OK with \"OAuth 2 authorization without a callback URL\r\nFill in the other fields to get a \"Client ID\".\r\n\r\nhttps://imgur.com/account/settings/apps\r\nYou can also check the Client ID from the above link if you are logged in.\r\n\r\nFor sideloading, the IPA is available on the GitHub release page.\r\nApolloSideloadFix.dylib\" and \"ApolloPatcher.dylib\" are already included, so all you need to do is install them from AltStore or other sources.\r\n\r\nIf you want to create your own IPA, please include ApolloSideloadFix.dylib.",
+            "downloadURL": "https://github.com/ichitaso/ApolloPatcher/releases/download/v0.0.5/Apollo_1.15.11_mod_0.0.5.ipa",
+            "localizedDescription": "Apollo is an app for Reddit built for customizability, smoothness, gestures, and taking advantage of everything iOS has to offer. Apollo is a beautiful Reddit app built for fast navigation with an incredibly powerful set of features. Thanks to features like the Jump Bar, fully customizable gestures, and a super-charged Media Viewer, browsing Reddit has never been this amazing. It's created specifically with iOS design guidelines in mind, so it fits right at home on your device, and with input from thousands of Redditors helping sculpt and perfect it over several years before launching: \n\n- Jump Bar, for super-fast hopping between subreddits\n- Super-charged Media Viewer for an amazing experience viewing images, GIFs, videos, albums, and more from a variety of sources.\n- Tabbed interface for easy navigating\n- Incredibly powerful Markdown composer for writing comments and posts\n- Full inline Imgur uploading, both images and albums\n- Large or compact posts depending on your preference\n- Dark mode (can be automatic)\n- Fully customizable gestures\n- Safari View Controller for browsing articles and links\n- Inline previews of media in comments\n- 3D Touch support\n- Beautifully organized Inbox\n- Filtering and blocking\n- Face ID / Touch ID / Passcode lock\n- Moderator features\n- Tons of settings to tweak\n- GIF scrubbing to go backward and forward in time\n- Multiple accounts\n- Powerful search\n- Full Markdown rendering\n- Unobtrusive Volume Indicator\n\nAs well as much, much more and it's constantly evolving. If you have anything you'd specifically like to see, come to the ApolloApp subreddit and we'd love to hear it! Apollo is an unofficial app, and side effects may include an incredible browsing experience.",
+            "iconURL": "https://raw.githubusercontent.com/Balackburn/Apollo/main/images/image_0.webp",
+            "tintColor": "#4453f4",
+            "size": 110366835,
+            "screenshotURLs": [
+                "https://raw.githubusercontent.com/Balackburn/Apollo/main/images/image_1.webp",
+                "https://raw.githubusercontent.com/Balackburn/Apollo/main/images/image_2.webp",
+                "https://raw.githubusercontent.com/Balackburn/Apollo/main/images/image_3.webp",
+                "https://raw.githubusercontent.com/Balackburn/Apollo/main/images/image_4.webp",
+                "https://raw.githubusercontent.com/Balackburn/Apollo/main/images/image_5.webp",
+                "https://raw.githubusercontent.com/Balackburn/Apollo/main/images/image_6.webp",
+                "https://raw.githubusercontent.com/Balackburn/Apollo/main/images/image_7.webp",
+                "https://raw.githubusercontent.com/Balackburn/Apollo/main/images/image_8.webp"
+            ],
+            "versions": [
+                {
+                    "version": "1.15.11",
+                    "date": "2023-07-14T04:04:14Z",
+                    "localizedDescription": "\u2022 Re Fix Imgur loading issue  \r\n\r\nThe Imgur client ID is tentatively created by me, but may stop if there are too many requests.\r\n\r\nHow to create\r\n\r\nIf you do not have an Imgur account, please create one:\r\nhttps://imgur.com/\r\n\r\nAfter creating an account, create an app from the following page\r\nhttps://api.imgur.com/oauth2/addclient\r\nAuthorization type: is OK with \"OAuth 2 authorization without a callback URL\r\nFill in the other fields to get a \"Client ID\".\r\n\r\nhttps://imgur.com/account/settings/apps\r\nYou can also check the Client ID from the above link if you are logged in.\r\n\r\nFor sideloading, the IPA is available on the GitHub release page.\r\nApolloSideloadFix.dylib\" and \"ApolloPatcher.dylib\" are already included, so all you need to do is install them from AltStore or other sources.\r\n\r\nIf you want to create your own IPA, please include ApolloSideloadFix.dylib.",
+                    "downloadURL": "https://github.com/ichitaso/ApolloPatcher/releases/download/v0.0.5/Apollo_1.15.11_mod_0.0.5.ipa",
+                    "size": 110366835
+                },
+                {
+                    "version": "0.0.3",
+                    "date": "2023-07-03T20:10:00Z",
+                    "localizedDescription": "\u2022 Added: ApolloSideloadFix\r\nThis allows sideloaded apps to save the login state when exiting.\r\nCredit @level3tjg\r\n\u2022 Added: How to Use",
+                    "downloadURL": "https://github.com/ichitaso/ApolloPatcher/releases/download/v0.0.3/Apollo_1.15.11_mod_0.0.3.ipa",
+                    "size": 110363629
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    {
+                        "name": "com.apple.security.application-groups"
+                    },
+                    {
+                        "name": "com.apple.developer.associated-domains"
+                    },
+                    {
+                        "name": "com.apple.developer.group-session"
+                    },
+                    {
+                        "name": "com.apple.developer.icloud-container-identifiers"
+                    },
+                    {
+                        "name": "com.apple.developer.ubiquity-kvstore-identifier"
+                    },
+                    {
+                        "name": "keychain-access-groups"
+                    },
+                    {
+                        "name": "aps-environment"
+                    },
+                    {
+                        "name": "com.apple.developer.weatherkit"
+                    }
+                ],
+                "privacy": [
+                    {
+                        "name": "Camera",
+                        "usageDescription": "App needs camera access."
+                    },
+                    {
+                        "name": "FaceID",
+                        "usageDescription": "App uses Face ID."
+                    },
+                    {
+                        "name": "LocationWhenInUse",
+                        "usageDescription": "App needs location when in use."
+                    },
+                    {
+                        "name": "Motion",
+                        "usageDescription": "App uses motion sensors."
+                    },
+                    {
+                        "name": "PhotoLibraryAdd",
+                        "usageDescription": "App adds photos."
+                    },
+                    {
+                        "name": "PhotoLibrary",
+                        "usageDescription": "App accesses photo library."
+                    }
+                ]
+            }
+        },
+        {
+            "beta": false,
+            "name": "Winston for Reddit",
+            "bundleIdentifier": "lo.cafe.winston",
+            "developerName": "Kinark",
+            "subtitle": "Winston, a beautiful and native Reddit client for iOS",
+            "version": "1.0",
+            "versionDate": "2023-09-20T22:43:53Z",
+            "versionDescription": "This version is the first IPA available for download for people who can't use TestFlight for any reason.\r\nWe don't have a versioning system yet as well, so \"0.1\" is not exactly precise.",
+            "downloadURL": "https://github.com/Kinark/winston/releases/download/v0.1-alpha/winston.ipa",
+            "localizedDescription": "Introducing Winston: \n A Stunning and native Reddit client for iOS\n- In-development, free, and open-source app and bot \n- User-friendly interface designed for easy navigation\n- Compliance with Reddit's Terms of Service for a seamless experience\n- Stay connected with the Reddit community in a sleek and intuitive way\n- Experience the beauty of Winston, your ultimate iOS Reddit companion.\n",
+            "iconURL": "https://raw.githubusercontent.com/Balackburn/Winston/main/images/0.png",
+            "tintColor": "#000000",
+            "size": 8614755,
+            "screenshotURLs": [
+                "https://raw.githubusercontent.com/Balackburn/Winston/main/images/1.png",
+                "https://raw.githubusercontent.com/Balackburn/Winston/main/images/2.png",
+                "https://raw.githubusercontent.com/Balackburn/Winston/main/images/3.png",
+                "https://raw.githubusercontent.com/Balackburn/Winston/main/images/4.png",
+                "https://raw.githubusercontent.com/Balackburn/Winston/main/images/5.png",
+                "https://raw.githubusercontent.com/Balackburn/Winston/main/images/6.png",
+                "https://raw.githubusercontent.com/Balackburn/Winston/main/images/7.png"
+            ],
+            "versions": [
+                {
+                    "version": "1.0",
+                    "date": "2023-09-20T22:43:53Z",
+                    "localizedDescription": "This version is the first IPA available for download for people who can't use TestFlight for any reason.\r\nWe don't have a versioning system yet as well, so \"0.1\" is not exactly precise.",
+                    "downloadURL": "https://github.com/Kinark/winston/releases/download/v0.1-alpha/winston.ipa",
+                    "size": 8614755
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    {
+                        "name": "com.apple.developer.associated-domains"
+                    },
+                    {
+                        "name": "get-task-allow"
+                    },
+                    {
+                        "name": "com.apple.developer.siri"
+                    }
+                ],
+                "privacy": [
+                    {
+                        "name": "PhotoLibrary",
+                        "usageDescription": "Winston needs access to your library to be able to download images."
+                    },
+                    {
+                        "name": "DocumentsFolder",
+                        "usageDescription": "Winston needs access to your documents to save/import themes."
+                    }
+                ]
+            }
+        }
+    ]
+}
