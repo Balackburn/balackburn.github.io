@@ -1,6 +1,11 @@
 {
-    "name": "Balackburn Github Projects",
-    "identifier": "com.balackburb.source",
+    "name": "Balackburn Source",
+    "identifier": "com.balackburn.source",
+    "subtitle": "Balackburn's Github Projects",
+    "description": "This source contains Balackburn's Github Projects",
+    "iconURL": "https://balackburn.github.io/images/balackburn_icon.png",
+    "website": "https://balackburn.github.io/",
+    "tintColor": "#24292e",
     "apps": [
         {
             "beta": false,
